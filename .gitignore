@@ -17,3 +17,13 @@
 !/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose.onnx
 !/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose_cut.onnx
 !/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose_edit.onnx
+
+# Laptop-only training (heat throttling, local runs). Keep ignored even if the
+# whitelist above is widened later.
+/yolov8s-hand-pose_512x288_split/train_laptop.py
+/yolov8s-hand-pose_512x288_split/train_laptop.sh
+/yolov8s-hand-pose_512x288_split/train_laptop.*
+/yolov8s-hand-pose_512x288_split/train_identity/
+/yolov8s-hand-pose_512x288_split/train.sh
+/yolov8s-hand-pose_512x288_split/resume.sh
+/yolov8s-hand-pose_512x288_split/ultralytics_config/
