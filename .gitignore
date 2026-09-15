@@ -1,5 +1,4 @@
 /yolov11spose/
-/yolov8s-hand-pose_512x288_split/
 
 # Keep only the original ONNX model and accompanying metadata for each selected model.
 /yolo11n-hand-pose/*
@@ -10,3 +9,10 @@
 !/yolov8n-hand-pose_512x288_split/hand-keypoints.yaml
 !/yolov8n-hand-pose_512x288_split/pose_split_kps.py
 !/yolov8n-hand-pose_512x288_split/yolov8n-hand-pose.onnx
+
+/yolov8s-hand-pose_512x288_split/*
+!/yolov8s-hand-pose_512x288_split/hand-keypoints-identity-flip.yaml
+!/yolov8s-hand-pose_512x288_split/pose_split_kps.py
+!/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose.onnx
+!/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose_cut.onnx
+!/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose_edit.onnx
