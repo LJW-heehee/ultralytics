@@ -13,6 +13,7 @@
 /yolov8s-hand-pose_512x288_split/*
 !/yolov8s-hand-pose_512x288_split/hand-keypoints-identity-flip.yaml
 !/yolov8s-hand-pose_512x288_split/pose_split_kps.py
+!/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose.pt
 !/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose.onnx
 !/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose_cut.onnx
 !/yolov8s-hand-pose_512x288_split/yolov8s-hand-pose_edit.onnx
