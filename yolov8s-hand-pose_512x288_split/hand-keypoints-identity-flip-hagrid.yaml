@@ -1,0 +1,39 @@
+# Same identity flip_idx as hand-keypoints-identity-flip.yaml, plus a HaGRID
+# curled-finger train subset (one / little_finger / middle_finger / fist /
+# peace / three / rock / call / three_gun). Val stays the original MediaPipe-hand set
+# so mAP stays comparable.
+path: /home/ljw/VBX_SDK/datasets
+train:
+  - hand-keypoints/images/train
+  - hagrid_curled/images/train
+val: hand-keypoints/images/val
+
+kpt_shape: [21, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+names:
+  0: hand
+
+kpt_names:
+  0:
+    - wrist
+    - thumb_cmc
+    - thumb_mcp
+    - thumb_ip
+    - thumb_tip
+    - index_mcp
+    - index_pip
+    - index_dip
+    - index_tip
+    - middle_mcp
+    - middle_pip
+    - middle_dip
+    - middle_tip
+    - ring_mcp
+    - ring_pip
+    - ring_dip
+    - ring_tip
+    - pinky_mcp
+    - pinky_pip
+    - pinky_dip
+    - pinky_tip
